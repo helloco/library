@@ -1,0 +1,1956 @@
+[ 2014-06-13T00:00:27+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [2] Missing argument 4 for AdminAction::pageBase(), called in I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php on line 29 and defined I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lib_book` [ RunTime:0.032059s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_book` LIMIT 1   [ RunTime:0.000516s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `lib_book` ORDER BY bookID LIMIT 0,8   [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038618s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000518s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002350s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2014-06-13T00:00:29+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/addBookView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.098662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098753s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002149s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2014-06-13T00:00:46+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/addBookView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000644s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002596s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2014-06-13T00:00:48+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/borrowStatusView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lib_borrow` [ RunTime:0.017875s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrow` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.000675s ]
+SQL: SELECT * FROM `lib_borrow` WHERE ( status = 0 ) ORDER BY ret_time LIMIT 0,8   [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036976s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000477s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002129s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000747s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2014-06-13T00:01:13+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/addBookView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019652s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000718s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003212s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001059s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2014-06-13T00:01:16+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/borrowStatusView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lib_borrow` [ RunTime:0.033535s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrow` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.001134s ]
+SQL: SELECT * FROM `lib_borrow` WHERE ( status = 0 ) ORDER BY ret_time LIMIT 0,8   [ RunTime:0.001199s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055104s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002176s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2014-06-13T00:01:17+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/alterAccountView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000543s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002229s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000791s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2014-06-13T00:01:22+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/css/unicorn.blue.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+ERR: 非法操作:css
+
+[ 2014-06-13T00:01:24+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/css/unicorn.red.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+ERR: 非法操作:css
+
+[ 2014-06-13T00:01:25+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/css/unicorn.red.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001134s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+ERR: 非法操作:css
+
+[ 2014-06-13T00:01:27+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/css/unicorn.blue.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000929s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+ERR: 非法操作:css
+
+[ 2014-06-13T00:01:27+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/css/unicorn.grey.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+ERR: 非法操作:css
+
+[ 2014-06-13T00:01:29+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/alterAccountView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010135s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000522s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000469s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002226s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000879s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2014-06-13T00:01:33+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/css/unicorn.red.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001698s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+ERR: 非法操作:css
+
+[ 2014-06-13T00:01:34+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/css/unicorn.red.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000727s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+ERR: 非法操作:css
+
+[ 2014-06-13T00:01:35+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/css/unicorn.grey.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+ERR: 非法操作:css
+
+[ 2014-06-13T00:01:37+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Setting/alterAccountView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008777s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000539s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000504s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002340s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2014-06-13T00:01:40+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/addBookView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000867s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020392s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000588s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000531s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2014-06-13T00:01:43+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [2] Missing argument 4 for AdminAction::pageBase(), called in I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php on line 29 and defined I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lib_book` [ RunTime:0.035734s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_book` LIMIT 1   [ RunTime:0.000470s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `lib_book` ORDER BY bookID LIMIT 0,8   [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038871s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000675s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000520s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002540s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2014-06-13T00:14:45+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001044s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\IndexAction.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant session_name - assumed 'session_name' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\IndexAction.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant session_pwd - assumed 'session_pwd' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\IndexAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `lib_user` [ RunTime:0.052912s ]
+SQL: SELECT * FROM `lib_user` WHERE ( name='' and	password='d41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.001314s ]
+
+[ 2014-06-13T00:14:52+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001057s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\IndexAction.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant session_name - assumed 'session_name' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\IndexAction.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant session_pwd - assumed 'session_pwd' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\IndexAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `lib_user` [ RunTime:0.027965s ]
+SQL: SELECT * FROM `lib_user` WHERE ( name='' and	password='d41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.000683s ]
+
+[ 2014-06-13T00:15:19+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\IndexAction.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant session_name - assumed 'session_name' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\IndexAction.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant session_pwd - assumed 'session_pwd' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\IndexAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `lib_user` [ RunTime:0.016798s ]
+SQL: SELECT * FROM `lib_user` WHERE ( name='' and	password='d41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.000592s ]
+
+[ 2014-06-13T00:17:06+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Admin/addBook
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+
+[ 2014-06-13T00:17:17+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Admin/addBook
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+
+[ 2014-06-13T00:17:30+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Admin/addBook
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001245s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+
+[ 2014-06-13T00:17:50+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Admin/addBook
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+
+[ 2014-06-13T00:18:02+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Admin/addBook
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001136s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+
+[ 2014-06-13T00:18:04+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Admin/addBook
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+
+[ 2014-06-13T00:18:27+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Admin/addBook
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000851s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8] Undefined index: REMOTE_NAME' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\CommonAction.class.php 第 4 行.
+
+[ 2014-06-13T00:18:40+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Admin/addBook
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined index: REMOTE_NAME' I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Api\CommonAction.class.php 第 4 行.
+
+[ 2014-06-13T00:18:53+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Admin/addBook
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000697s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-06-13T00:19:02+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Api/Admin/addBook
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `lib_admin` [ RunTime:0.053016s ]
+SQL: SELECT * FROM `lib_admin` WHERE ( name='' and password='' )  [ RunTime:0.000483s ]
+
+[ 2014-06-13T22:22:35+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007658s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006710s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T22:22:36+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000796s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.184258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184469s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008215s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008648s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.021560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.048164s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008739s ]
+
+[ 2014-06-13T22:22:36+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001821s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+
+[ 2014-06-13T22:23:02+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:qr
+
+[ 2014-06-13T22:23:11+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:admin
+
+[ 2014-06-13T22:23:15+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T22:23:15+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007324s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000595s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002380s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2014-06-13T22:23:15+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+
+[ 2014-06-13T22:23:53+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001279s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T22:23:53+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008752s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000567s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000537s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002342s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2014-06-13T22:23:54+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000716s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+
+[ 2014-06-13T22:24:01+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Index/checkLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `lib_admin` [ RunTime:0.072469s ]
+SQL: SELECT * FROM `lib_admin` WHERE ( name='pppppp' and password='e882b72bccfc2ad578c27b0d9b472a14' )  [ RunTime:0.000693s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\IndexAction.class.php 第 27 行.
+
+[ 2014-06-13T22:24:03+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [2] Missing argument 4 for AdminAction::pageBase(), called in I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php on line 29 and defined I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lib_book` [ RunTime:0.067305s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_book` LIMIT 1   [ RunTime:0.000596s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `lib_book` ORDER BY bookID LIMIT 0,8   [ RunTime:0.000872s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.086103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086268s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001399s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001181s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005091s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002536s ]
+
+[ 2014-06-13T22:24:08+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000984s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T22:24:11+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T22:24:44+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T22:25:09+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T22:25:24+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T22:28:13+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:26:59+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001123s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:27:05+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000754s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:27:09+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001642s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:27:18+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:27:24+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:28:21+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:28:28+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:28:32+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000698s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:28:37+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000716s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:28:43+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:05+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001402s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:06+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:07+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000779s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:07+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001162s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:07+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:08+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000709s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:08+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:09+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001378s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:10+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001511s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:11+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:11+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001290s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:12+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:13+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:15+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:16+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002243s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:16+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:17+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:17+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000703s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:23+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000903s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:23+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:23+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000679s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:24+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:30:45+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:33:24+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:33:26+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:33:30+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001128s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:34:39+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:34:41+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:34:42+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:34:43+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:34:55+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:34:59+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002101s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:34:59+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:36:32+08:00 ] 0.0.0.0 /zendStudio/Library/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009127s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000575s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2014-06-13T23:36:32+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+
+[ 2014-06-13T23:36:40+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Index/checkLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.234977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.235184s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001433s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001691s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001633s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006971s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003274s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003491s ]
+
+[ 2014-06-13T23:36:49+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Index/checkLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000697s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `lib_admin` [ RunTime:0.038550s ]
+SQL: SELECT * FROM `lib_admin` WHERE ( name='pppppp' and password='e882b72bccfc2ad578c27b0d9b472a14' )  [ RunTime:0.000581s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\IndexAction.class.php 第 27 行.
+
+[ 2014-06-13T23:36:51+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [2] Missing argument 4 for AdminAction::pageBase(), called in I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php on line 29 and defined I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lib_book` [ RunTime:0.034422s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_book` LIMIT 1   [ RunTime:0.000593s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `lib_book` ORDER BY bookID LIMIT 0,8   [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.125169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125317s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001109s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000987s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001028s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001840s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002118s ]
+
+[ 2014-06-13T23:36:55+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/borrowStatusView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lib_borrow` [ RunTime:0.116785s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrow` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.000664s ]
+SQL: SELECT * FROM `lib_borrow` WHERE ( status = 0 ) ORDER BY ret_time LIMIT 0,8   [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051848s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000555s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000442s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002072s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2014-06-13T23:36:57+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/addBookView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000710s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054804s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000560s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000478s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2014-06-13T23:37:00+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000693s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [2] Missing argument 4 for AdminAction::pageBase(), called in I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php on line 29 and defined I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lib_book` [ RunTime:0.026756s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_book` LIMIT 1   [ RunTime:0.000556s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `lib_book` ORDER BY bookID LIMIT 0,8   [ RunTime:0.000820s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034745s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000604s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000486s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002362s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000893s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2014-06-13T23:37:03+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/borrowStatusView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lib_borrow` [ RunTime:0.027824s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrow` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.000703s ]
+SQL: SELECT * FROM `lib_borrow` WHERE ( status = 0 ) ORDER BY ret_time LIMIT 0,8   [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034967s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000588s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000516s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002505s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000777s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2014-06-13T23:37:40+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:37:58+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:37:58+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000707s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:38:01+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:38:01+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:38:04+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Setting/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:38:04+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007918s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2014-06-13T23:38:04+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001663s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+
+[ 2014-06-13T23:38:06+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:38:06+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007809s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000416s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000397s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001912s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-06-13T23:38:06+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+
+[ 2014-06-13T23:38:17+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Index/checkLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000732s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008123s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000509s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000514s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002127s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000740s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2014-06-13T23:38:28+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007302s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000473s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000441s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002069s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2014-06-13T23:38:28+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-06-13T23:38:34+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Index/checkLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000858s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `lib_admin` [ RunTime:0.010819s ]
+SQL: SELECT * FROM `lib_admin` WHERE ( name='pppppp' and password='e882b72bccfc2ad578c27b0d9b472a14' )  [ RunTime:0.000414s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\IndexAction.class.php 第 27 行.
+
+[ 2014-06-13T23:38:36+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [2] Missing argument 4 for AdminAction::pageBase(), called in I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php on line 29 and defined I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lib_book` [ RunTime:0.034594s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_book` LIMIT 1   [ RunTime:0.000970s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `lib_book` ORDER BY bookID LIMIT 0,8   [ RunTime:0.001482s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052278s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000589s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002632s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2014-06-13T23:38:39+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007874s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000466s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2014-06-13T23:38:39+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000723s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+
+[ 2014-06-13T23:40:28+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Setting/alterAccountView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021363s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000549s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002110s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2014-06-13T23:40:32+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/borrowStatusView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lib_borrow` [ RunTime:0.064198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrow` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.000800s ]
+SQL: SELECT * FROM `lib_borrow` WHERE ( status = 0 ) ORDER BY ret_time LIMIT 0,8   [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.212744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.212919s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000999s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000829s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003919s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001923s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002134s ]
+
+[ 2014-06-13T23:41:18+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:41:34+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:41:35+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000702s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:41:44+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+
+[ 2014-06-13T23:45:48+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/borrowStatusView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lib_borrow` [ RunTime:0.036400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrow` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.001202s ]
+SQL: SELECT * FROM `lib_borrow` WHERE ( status = 0 ) ORDER BY ret_time LIMIT 0,8   [ RunTime:0.000790s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041602s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000673s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000909s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-06-13T23:46:38+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000960s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [2] Missing argument 4 for AdminAction::pageBase(), called in I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php on line 28 and defined I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lib_book` [ RunTime:0.029734s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_book` LIMIT 1   [ RunTime:0.000526s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `lib_book` ORDER BY bookID LIMIT 0,8   [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053927s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000434s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000705s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2014-06-13T23:46:55+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/addBookView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054960s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000552s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000477s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002237s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001046s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2014-06-13T23:49:48+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [2] Missing argument 4 for AdminAction::pageBase(), called in I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php on line 28 and defined I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lib_book` [ RunTime:0.021792s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_book` LIMIT 1   [ RunTime:0.000502s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `lib_book` ORDER BY bookID LIMIT 0,8   [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032251s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000491s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002488s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001205s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2014-06-13T23:49:51+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/borrowStatusView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lib_borrow` [ RunTime:0.017520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrow` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.000492s ]
+SQL: SELECT * FROM `lib_borrow` WHERE ( status = 0 ) ORDER BY ret_time LIMIT 0,8   [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031007s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000497s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000396s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002042s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2014-06-13T23:50:30+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/borrowStatusView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000751s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lib_borrow` [ RunTime:0.128394s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrow` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.001106s ]
+SQL: SELECT * FROM `lib_borrow` WHERE ( status = 0 ) ORDER BY ret_time LIMIT 0,8   [ RunTime:0.001039s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.127532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127736s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001025s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000995s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001115s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004579s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2014-06-13T23:50:35+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000682s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [2] Missing argument 4 for AdminAction::pageBase(), called in I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php on line 28 and defined I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lib_book` [ RunTime:0.030295s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_book` LIMIT 1   [ RunTime:0.000980s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `lib_book` ORDER BY bookID LIMIT 0,8   [ RunTime:0.001364s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.097690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097868s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000715s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000931s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003037s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2014-06-13T23:50:39+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/borrowStatusView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lib_borrow` [ RunTime:0.032785s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrow` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.001206s ]
+SQL: SELECT * FROM `lib_borrow` WHERE ( status = 0 ) ORDER BY ret_time LIMIT 0,8   [ RunTime:0.001186s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042690s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2014-06-13T23:51:11+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/borrowStatusView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lib_borrow` [ RunTime:0.029800s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrow` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.001085s ]
+SQL: SELECT * FROM `lib_borrow` WHERE ( status = 0 ) ORDER BY ret_time LIMIT 0,8   [ RunTime:0.001207s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000950s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001066s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003751s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000989s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2014-06-13T23:51:13+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [2] Missing argument 4 for AdminAction::pageBase(), called in I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php on line 28 and defined I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lib_book` [ RunTime:0.019151s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_book` LIMIT 1   [ RunTime:0.000477s ]
+NOTIC: [8] Undefined variable: where I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `lib_book` ORDER BY bookID LIMIT 0,8   [ RunTime:0.000823s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033670s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000603s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000487s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002256s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2014-06-13T23:51:16+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/qrcodeView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000972s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022674s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000570s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002222s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001005s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2014-06-13T23:51:42+08:00 ] 0.0.0.0 /zendStudio/Library/index.php/Admin/Admin/qrcodeView.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021055s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000413s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2014-06-13T23:52:31+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+
+[ 2014-06-13T23:54:03+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+
+[ 2014-06-13T23:54:38+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+
+[ 2014-06-13T23:54:58+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+
+[ 2014-06-13T23:55:00+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+
+[ 2014-06-13T23:56:22+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000753s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+
+[ 2014-06-13T23:57:11+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+
+[ 2014-06-13T23:57:40+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+
+[ 2014-06-13T23:58:16+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+
+[ 2014-06-13T23:59:50+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+NOTIC: [2] imagepng() [<a href='function.imagepng'>function.imagepng</a>]: Unable to open '2014-06-13 23:59:50.png' for writing: Invalid argument I:\phpStudy\WWW\zendStudio\Library\ThinkPHP\Extend\Vendor\phpqrcode\phpqrcode.php 第 954 行.
+
+[ 2014-06-13T23:59:50+08:00 ] 0.0.0.0 /zendStudio/library/index.php/Admin/Admin/qrcode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] A session had already been started - ignoring session_start() I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\InitAction.class.php 第 4 行.
+NOTIC: [8] Undefined index: data I:\phpStudy\WWW\zendStudio\Library\Library\Lib\Action\Admin\AdminAction.class.php 第 113 行.
+NOTIC: [2] imagepng() [<a href='function.imagepng'>function.imagepng</a>]: Unable to open '2014-06-13 23:59:50.png' for writing: Invalid argument I:\phpStudy\WWW\zendStudio\Library\ThinkPHP\Extend\Vendor\phpqrcode\phpqrcode.php 第 954 行.
+
