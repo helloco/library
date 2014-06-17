@@ -1,6 +1,7 @@
 <?php
 class CommonAction extends Action {
 	public function _initialize(){
+		header("Content-type: text/html; charset=utf-8");
 // 		echo $_SERVER["REMOTE_ADDR"];
 // 		die();
 // 		if ($_SERVER["REMOTE_ADDR"] != '127.0.0.1') {

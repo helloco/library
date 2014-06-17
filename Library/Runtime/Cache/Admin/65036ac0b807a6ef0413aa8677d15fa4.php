@@ -134,7 +134,7 @@
 									<ul>
 										<li><a href="#">Prev</a></li>
 										
-										<?php $__FOR_START_30005__=1;$__FOR_END_30005__=$pageCount+1;for($i=$__FOR_START_30005__;$i < $__FOR_END_30005__;$i+=1){ ?><li><a href="<?php echo U('Admin/Admin/admin',array('p' => $i));?>"><?php echo ($i); ?></a></li><?php } ?>
+										<?php $__FOR_START_6706__=1;$__FOR_END_6706__=$pageCount+1;for($i=$__FOR_START_6706__;$i < $__FOR_END_6706__;$i+=1){ ?><li><a href="<?php echo U('Admin/Admin/admin',array('p' => $i));?>"><?php echo ($i); ?></a></li><?php } ?>
 										
 									  	<li><a href="#">Next</a></li>
 									</ul>

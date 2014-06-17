@@ -12,9 +12,7 @@ class AdminAction extends CommonAction {
 			如果首先这个验证失败，则不予提供接口服务。
 		 */
 		$name = I('name','','htmlspecialchars');
-		$password = I('password','','htmlspecialchars');
-		$result = D('User')->where("name='%s' and password='%s'",$name,$password)->select();  //验证账户密码
-		if (empty($result)) {
+		if (!isset($_SESSION['$name'])) {
 			$output = array('status' => -1, 'info'=>'请登录！', 'code' => 11900);
 			exit (json_encode($output));
 		}
@@ -100,13 +98,8 @@ class AdminAction extends CommonAction {
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);  //设置保存在字符串中而不是显示在屏幕
 		$isbn = I('isbn','','htmlspecialchars');	  //获取客户端传过来的值
 		
-		$name = I('name','','htmlspecialchars');
-		$password = I('password','','htmlspecialchars');
-		$admin = D('Admin')->where("name='%s' and password='%s'",$name,md5($password))->select();  //验证管理员账户密码
-		if (empty($admin)) {
-			$output = array('status' => -1, 'info'=>'请登录再添加！', 'code' => 11900);
-			exit(json_encode($output));
-		} else {
+		$this->init();
+		 
 			curl_setopt($ch, CURLOPT_URL, "https://api.douban.com/v2/book/isbn/".$isbn);
 			curl_setopt($ch, CURLOPT_HEADER, 0);
 		
@@ -137,7 +130,7 @@ class AdminAction extends CommonAction {
 					$output = array('status' => 2, 'info'=>'新增失败！', 'code' => 11903);
 					echo json_encode($output);
 				}
-			}
+			
 			curl_close($ch);
       }
     }
